@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon src ",
-    "start": "cross-env NODE_ENV=production node src",
+    "start": "node index",
     "test": "cross-env NODE_ENV=test PORT=1234 jest --verbose"
   },
   "keywords": [],

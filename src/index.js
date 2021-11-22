@@ -32,7 +32,7 @@ app.use('/api/agora', annuncie)
 
 
 // Setting
-const port = (process.env.PORT || 3005)
+const port = process.env.PORT || 3000;
 
 app.set('port', port)
 
