@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon src ",
+    "dev": "nodemon index ",
     "start": "node index",
     "test": "cross-env NODE_ENV=test PORT=1234 jest --verbose"
   },
